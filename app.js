@@ -30,7 +30,7 @@ app.use('*', (req,res) => {
     .set('x-powered-by', 'cyclic.sh')
     .set('content-type', 'application/json')
     .send(JSON.stringify({
-      msg: "Thanks for playing!",
+      msg: "Thanks for pasdfasdflaying!",
       at: new Date().toISOString(),
       method: req.method,
       hostname: req.hostname,
