@@ -15,7 +15,7 @@ var options = {
 
 app.use(express.static('public', options))
 
-app.get('/hello.json', (req,res) => {
+app.get('*', (req,res) => {
   res.json({
     Hello: ['Hola', 'Hello', 'Привет', '你好', 'こんにちは'],
     World: ['🌎', '🌍','🌏','🗺','🌐'],
