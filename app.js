@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 
+
 var options = {
   dotfiles: 'ignore',
   etag: false,
@@ -20,7 +21,7 @@ app.get('*', (req,res) => {
     Hello: ['Hola', 'Hello', 'Привет', '你好', 'こんにちは'],
     World: ['🌎', '🌍','🌏','🗺','🌐'],
     at: new Date().toISOString(),
-    msg: "Hssssello."
+    msg: "Hsssggggsello."
   })
 })
 
